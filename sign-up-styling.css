@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    border-left: 8px solid rgb(255, 255, 0);
+    border-right: 300px solid yellow;
+}
+
+#mail-chimp{
+    margin-left: 20px;
+    margin-bottom: 8%;
+}
+
+#table{
+    margin: 0;
+    /*margin-top: 10%;*/
+    margin-left: 15%;
+    width: 70%;
+}
+
+#table fieldset{
+    border: 0;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+p{
+    text-decoration: none;
+    font-size: 17px;
+    text-align: justify;
+    color: rgb(66, 63, 63);
+}
+
+p a{
+    text-decoration: none;
+    color: teal;
+}
+
+#input-text{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    width: 95%;
+    height: 40px;
+}
+
+#password-rules{
+    display: flex;
+
+}
+
+.first-row{
+    display: inline-block;
+    height: 10px;
+}
+
+.sec-row{
+    float: right;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+ul li::before{
+    list-style: square;
+    color: rgba(2, 238, 2, 0.973);
+    display: inline-block;
+    font-weight: bold;
+}
+
+#sign-up-btn{
+    display: flex;
+}
+
+#sign-up{
+    width: 300%;
+    height: 100%;
+    background: whitesmoke;
+}
+
+.check-box{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.accept-terms{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.disclaimer a{
+    color: teal;
+}
+
+.disclaimer{
+    text-align: justify;
+    margin-top: 10%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#footer{
+    bottom: 0;
+    margin-top: 20%;
+    margin-left: 2%;
+    font-size: 14px;
+    color: rgb(156, 139, 139);
+}
+
+#footer a{
+    color: #adababfb;
+}
