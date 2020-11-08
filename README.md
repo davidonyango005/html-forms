@@ -1,2 +1,2 @@
 # html-forms
-Mock Mailchimp sign up page
+Mock Mailchimp Sign Up Page
